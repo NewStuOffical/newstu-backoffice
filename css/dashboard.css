@@ -1,0 +1,161 @@
+/* ==========================================
+   NEWSTU OS DASHBOARD
+   ------------------------------------------
+   This file controls ONLY the dashboard.
+   ========================================== */
+
+/* Remove browser spacing */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+/* Whole page */
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#111;
+
+    color:white;
+
+    display:flex;
+
+}
+
+/* Sidebar */
+
+.sidebar{
+
+    width:250px;
+
+    background:#1c1c1c;
+
+    min-height:100vh;
+
+    padding:20px;
+
+}
+
+/* Sidebar title */
+
+.sidebar h2{
+
+    margin-bottom:30px;
+
+}
+
+/* Navigation */
+
+.sidebar ul{
+
+    list-style:none;
+
+}
+
+/* Navigation items */
+
+.sidebar li{
+
+    padding:12px;
+
+    margin-bottom:8px;
+
+    background:#2d2d2d;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+/* Hover effect */
+
+.sidebar li:hover{
+
+    background:#444;
+
+}
+
+/* Main content */
+
+.main-content{
+
+    flex:1;
+
+    padding:30px;
+
+}
+
+/* Header */
+
+header{
+
+    margin-bottom:40px;
+
+}
+
+/* Dashboard cards */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+/* Card */
+
+.card{
+
+    background:#1f1f1f;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    min-height:140px;
+
+}
+
+/* Lower panel */
+
+.panel{
+
+    margin-top:40px;
+
+    background:#1f1f1f;
+
+    padding:20px;
+
+    border-radius:10px;
+
+}
+
+/* Buttons */
+
+button{
+
+    margin-top:15px;
+
+    margin-right:10px;
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
