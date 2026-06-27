@@ -159,3 +159,26 @@ button{
     cursor:pointer;
 
 }
+
+
+/* Sidebar links */
+
+.sidebar a {
+
+    color: white;
+
+    text-decoration: none;
+
+    display: block;
+
+    width: 100%;
+
+}
+
+/* Hover effect */
+
+.sidebar a:hover {
+
+    color: #4CAF50;
+
+}
